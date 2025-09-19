@@ -21,7 +21,7 @@ public:
         int m = img.size();
         int n = img[0].size();
 
-        vector<vector<int>> result(m, vector<int>(n,0));
+        vector<vector<int>> result(m, vector<int>(n));
         
 
         for (int i = 0; i < m; i++) {
